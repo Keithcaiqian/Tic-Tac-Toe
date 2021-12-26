@@ -1,0 +1,24 @@
+.chess {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.chess .chess-center {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.chess .chess-center.red {
+  background: radial-gradient(#fff,#f00);
+}
+
+.chess .chess-center.black {
+  background: radial-gradient(#fff,#000);
+}

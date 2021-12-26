@@ -1,0 +1,12 @@
+.gameBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.startBtn{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
